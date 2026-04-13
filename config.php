@@ -1,10 +1,10 @@
 <?php
 // ═══════════════════════════════════════════════════════════════════
-// config.php — Configuração central do SportMatch
-// ═══════════════════════════════════════════════════════════════════
+// config.php — Configuração central do Eterna Forma
+// ═════════════════════════════════════════════════════════════════════
 
 define('DB_HOST',    'localhost');
-define('DB_NAME',    'sportmatch');
+define('DB_NAME',    'eterna_forma');
 define('DB_USER',    'root');      // altere
 define('DB_PASS',    '');          // altere
 define('DB_CHARSET', 'utf8mb4');

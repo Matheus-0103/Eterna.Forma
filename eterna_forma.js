@@ -1,5 +1,5 @@
 /**
- * sportmatch.js — Validação e UX compartilhados
+ * eterna_forma.js — Validação e UX compartilhados
  */
 (() => {
   'use strict';

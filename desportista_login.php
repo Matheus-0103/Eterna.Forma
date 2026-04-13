@@ -77,8 +77,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SportMatch — Desportistas</title>
-  <link rel="stylesheet" href="sportmatch.css">
+  <title>Eterna Forma — Desportistas</title>
+  <link rel="stylesheet" href="eterna_forma.css">
 </head>
 <body>
 <div class="card">
@@ -176,6 +176,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <a href="index.php" style="color:rgba(245,230,214,.45);font-size:.8rem;text-decoration:none;position:relative;">← Voltar ao início</a>
   </div>
 </div>
-<script src="sportmatch.js"></script>
+<script src="eterna_forma.js"></script>
 </body>
 </html>

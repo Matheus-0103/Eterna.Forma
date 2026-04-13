@@ -69,8 +69,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SportMatch — Equipe Técnica</title>
-  <link rel="stylesheet" href="sportmatch.css">
+  <title>Eterna Forma — Equipe Técnica</title>
+  <link rel="stylesheet" href="eterna_forma.css">
 </head>
 <body>
 <div class="card">
@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <input type="hidden" name="acao" value="login">
       <div class="field-wrap">
         <label class="field-label">E-mail</label>
-        <input class="field-input" type="email" id="email" name="email" placeholder="tecnico@sportmatch.com" required>
+        <input class="field-input" type="email" id="email" name="email" placeholder="tecnico@eterna_forma.com" required>
         <span class="field-error" id="err-email"></span>
       </div>
       <div class="field-wrap">
@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
       <div class="field-wrap">
         <label class="field-label">E-mail</label>
-        <input class="field-input <?= isset($erros['email'])?'invalid':'' ?>" type="email" id="email" name="email" placeholder="tecnico@sportmatch.com" value="<?= h($campos['email']) ?>" required>
+        <input class="field-input <?= isset($erros['email'])?'invalid':'' ?>" type="email" id="email" name="email" placeholder="tecnico@eterna_forma.com" value="<?= h($campos['email']) ?>" required>
         <span class="field-error" id="err-email"><?= h($erros['email']??'') ?></span>
       </div>
       <div class="field-wrap">
@@ -161,6 +161,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <a href="index.php" style="color:rgba(245,230,214,.45);font-size:.8rem;text-decoration:none;position:relative;">← Voltar ao início</a>
   </div>
 </div>
-<script src="sportmatch.js"></script>
+<script src="eterna_forma.js"></script>
 </body>
 </html>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SportMatch</title>
-  <link rel="stylesheet" href="sportmatch.css">
+  <title>Eterna Forma</title>
+  <link rel="stylesheet" href="eterna_forma.css">
   <style>
     body { display:flex; align-items:center; justify-content:center; }
     .hero { text-align:center; color:var(--cream); max-width:540px; padding: 0 24px; animation: cardIn .6s ease both; }
@@ -27,7 +27,7 @@
 </head>
 <body>
 <div class="hero">
-  <div class="hero-logo">SportMatch</div>
+  <div class="hero-logo">Eterna Forma</div>
   <p class="hero-sub">Conecte desportistas com perfis similares.<br>Plataforma de match fitness completa.</p>
   <div class="access-grid">
     <!-- Desportista -->

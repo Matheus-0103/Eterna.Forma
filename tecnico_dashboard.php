@@ -113,8 +113,8 @@ $totalDesp = $pdo->query('SELECT COUNT(*) FROM desportistas WHERE ativo=1')->fet
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SportMatch — Painel Técnico</title>
-  <link rel="stylesheet" href="sportmatch.css">
+  <title>Eterna Forma — Painel Técnico</title>
+  <link rel="stylesheet" href="eterna_forma.css">
   <style>
     .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:100; align-items:center; justify-content:center; }
     .modal-overlay.open { display:flex; }
@@ -297,7 +297,7 @@ $totalDesp = $pdo->query('SELECT COUNT(*) FROM desportistas WHERE ativo=1')->fet
 
 </div>
 
-<script src="sportmatch.js"></script>
+<script src="eterna_forma.js"></script>
 <script>
 function abrirModal(id, titulo, desc, resposta) {
   document.getElementById('modalChamadoId').value = id;

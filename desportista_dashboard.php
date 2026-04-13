@@ -145,8 +145,8 @@ $diasSalvos= json_decode($perfil['disponibilidade'] ?? '[]', true) ?: [];
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SportMatch — Dashboard</title>
-  <link rel="stylesheet" href="sportmatch.css">
+  <title>Eterna Forma — Dashboard</title>
+  <link rel="stylesheet" href="eterna_forma.css">
 </head>
 <body class="dash">
 <div class="dash-wrap">
@@ -397,6 +397,6 @@ $diasSalvos= json_decode($perfil['disponibilidade'] ?? '[]', true) ?: [];
   <?php endif; ?>
 
 </div>
-<script src="sportmatch.js"></script>
+<script src="eterna_forma.js"></script>
 </body>
 </html>

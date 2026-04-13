@@ -1,9 +1,9 @@
 -- ═══════════════════════════════════════════════════════════════════
--- SportMatch — Schema completo
+-- Eterna Forma — Schema completo
 -- Execute: mysql -u root -p < setup.sql
--- ═══════════════════════════════════════════════════════════════════
-CREATE DATABASE IF NOT EXISTS sportmatch CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE sportmatch;
+-- ═════════════════════════════════════════════════════════════════════
+CREATE DATABASE IF NOT EXISTS eterna_forma CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE eterna_forma;
 
 -- DESPORTISTAS
 CREATE TABLE IF NOT EXISTS desportistas (
@@ -112,6 +112,6 @@ CREATE TABLE IF NOT EXISTS chamados (
 
 -- SEED: técnico padrão (senha: Admin@2025)
 INSERT IGNORE INTO equipe_tecnica (nome, sobrenome, email, senha_hash, especialidade) VALUES
-('Admin', 'Sistema', 'admin@sportmatch.com',
+('Admin', 'Sistema', 'admin@eterna_forma.com',
  '$2y$12$LQv3c1yqBWVHxkd0LI1Vre4eVT5J3mfBfH2PjNQzA7gZLuM9HnC6a',
  'Administrador');
